@@ -27,7 +27,7 @@ if (!fs.existsSync(uploadsPath)) {
 }
 
 // 🔓 CORS setup
-const allowedOrigins = ["http://localhost:5173", "https://bitcoinwala.ai","https://bitcoinwala2025.netlify.app"];
+const allowedOrigins = ["http://localhost:5173", "https://bitcoinwala.ai","https://bitcoinwala2025.netlify.app","https://bitcoinwala-2025.netlify.app"];
 app.use(
   cors({
     origin: function (origin, callback) {
